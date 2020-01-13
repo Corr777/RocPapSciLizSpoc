@@ -6,7 +6,27 @@ using System.Threading.Tasks;
 
 namespace R.P.S.L.S
 {
-    class CPU
-    {
+    //Member Variables
+
+    class CPU : Player //Inheritance (TYPE OF)
+    {     //Constructor (SPAWN)
+        public CPU() 
+        { 
+        
+        
+        
+        }
+        //CAN DO
+
+
+
+
+
+
+
+
+
+
+
     }
 }

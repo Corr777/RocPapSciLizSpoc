@@ -5,17 +5,29 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace R.P.S.L.S
-{ //Member Variables(Has A)
+{ 
+    
+
+    class Game 
+    {//Member Variables(Has A)
+        public Player P1;
+        public Player P2;
+
+        
+
+        public Game()
+        {//Constructor (SPAWN)
 
 
-    class Game
-    {
+            P1 = NewHuman;
 
 
-        //Constructor (SPAWN)
-
-        public Game() 
-        {
+        }
+        
+        //Can Do
+        public virtural SetupGame() 
+        { 
+        
         
         
         
@@ -23,8 +35,18 @@ namespace R.P.S.L.S
         
         
         }
+        public virtual RunGame()
+        {
+            if (P1.Gesture == P1.Gesture)
+            {
 
-        //Can Do
+
+
+            }
+
+
+
+        }
 
 
 

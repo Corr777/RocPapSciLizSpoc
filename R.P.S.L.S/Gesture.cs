@@ -6,7 +6,28 @@ using System.Threading.Tasks;
 
 namespace R.P.S.L.S
 {
-    class Gesture
+    //Member Variables(HAS A)
+
+    class Gesture 
     {
+        //CONSTRUCTOR(SPAWN)
+        public Gesture() 
+        {
+        
+        
+        
+        
+        }
+
+        //CAN DO
+
+
+
+
+
+
+
+
+
     }
 }

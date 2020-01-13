@@ -6,7 +6,29 @@ using System.Threading.Tasks;
 
 namespace R.P.S.L.S
 {
-    class Player2
+    //Member Variables
+
+    class Player2 : Player // Inheritance (TYPE OF)
     {
+        //CONSTRUCTOR (SPAWN)
+        public Player2() 
+        {
+        
+        
+        
+        }
+
+        //CAN DO
+
+
+
+
+
+
+
+
+
+
+
     }
 }

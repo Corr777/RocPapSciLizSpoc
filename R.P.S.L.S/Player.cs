@@ -6,7 +6,40 @@ using System.Threading.Tasks;
 
 namespace R.P.S.L.S
 {
-    class Player
+    //Member Variables
+
+    class Player : Game 
     {
+        string name;
+        string userInput;
+
+        //Constructor (SPAWN)
+        public Player() 
+        {
+        
+        
+        
+        
+        
+        }
+
+        //Can Do
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
