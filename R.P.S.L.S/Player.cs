@@ -10,20 +10,30 @@ namespace R.P.S.L.S
 
     class Player : Game 
     {
-        string name;
-        string userInput;
+        public string name;
+        public string userInput;
+        public Gesture gesture;
 
         //Constructor (SPAWN)
-        public Player() 
+        public Player(string name, string userInput, Gesture gesture) 
         {
+        
+     
+        
+        }
+
+        //Can Do
+        public virtual CreatePlayer() 
+        {
+            
+        
+        
         
         
         
         
         
         }
-
-        //Can Do
 
 
 
