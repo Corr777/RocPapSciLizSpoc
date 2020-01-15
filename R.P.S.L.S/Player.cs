@@ -6,43 +6,36 @@ using System.Threading.Tasks;
 
 namespace R.P.S.L.S
 {
-    //Member Variables
 
-    class Player : Game 
+
+    public abstract class Player
     {
-        public string name;
-        public string userInput;
-        public Gesture gesture;
+        //Member Variables
+        public int score;
+        public string Gesture;
+        public List<string> gesture = new List<string> { "Rock", "Paper", "Scissors", "Lizzard", "Spock" };
 
-        //Constructor (SPAWN)
-        public Player(string name, string userInput, Gesture gesture) 
+
+        public Player()//Constructor (SPAWN)
         {
-        
-     
-        
+          
+
+
         }
 
-        //Can Do
-        public virtual CreatePlayer() 
-        {
-            
+        public abstract string ChooseGesture();
+       
+
+
+
+       
         
         
         
+    
         
-        
-        
-        
-        }
 
-
-
-
-
-
-
-
-
+      
 
 
 
@@ -52,4 +45,22 @@ namespace R.P.S.L.S
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+

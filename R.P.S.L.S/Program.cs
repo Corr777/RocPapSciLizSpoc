@@ -11,6 +11,7 @@ namespace R.P.S.L.S
         static void Main(string[] args)
         {
 
+            Random random = new Random();
 
 
         }

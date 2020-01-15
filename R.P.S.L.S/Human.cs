@@ -8,19 +8,26 @@ namespace R.P.S.L.S
 {
     //Member Variables
 
-    class Player1 : Player //Inheritance (TYPE OF)
+   public class Human : Player //Inheritance (TYPE OF)
     {
         //CONSTRUCTOR (SPAWN)
-        public Player1() 
+        public Human() 
         {
-        
+            
         
         
         
         }
 
         //CAN DO
-
+        public override string ChooseGesture() 
+        {
+            Console.WriteLine("Rock, Paper, Scissor, Lizzard, SPOCK...CHOOOOSE!!!:");
+            Gesture = Console.ReadLine();
+            return Gesture;
+            
+        
+        }
 
 
 

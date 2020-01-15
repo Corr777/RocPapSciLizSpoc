@@ -6,31 +6,42 @@ using System.Threading.Tasks;
 
 namespace R.P.S.L.S
 {
-    //Member Variables
+    
 
-    class Computer : Player //Inheritance (TYPE OF)
+   public class Computer : Player //Inheritance (TYPE OF)
     {
-        
-        
-        //Constructor (SPAWN)
-        public Computer() 
+        //Member Variables
+        Random random = new Random();
+
+
+        public Computer()  //Constructor (SPAWN)
         {
             
 
 
         }
-        //CAN DO
+       
 
-        public override void ()
+        public override string ChooseGesture()     //CAN DO
         {
+            Gesture =  random.Next(1, 6);
+            Console.WriteLine(gesture);
+            Gesture = Console.ReadLine();
+            return Gesture;
 
-            Random random = new Random();
-          
 
-
+           
         }
 
-        
+
+
+
+
+
+
+
+
+
 
 
 
