@@ -13,7 +13,7 @@ namespace R.P.S.L.S
         //Member Variables
         public int score;
         public string Gesture;
-        public List<string> gestures = new List<string> { "Rock", "Paper", "Scissors", "Lizzard", "Spock" };
+        public List<string> gestures = new List<string> { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
 
 
         public Player()//Constructor (SPAWN)

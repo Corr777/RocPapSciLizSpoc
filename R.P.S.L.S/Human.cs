@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace R.P.S.L.S
 {
-    //Member Variables
+    
 
    public class Human : Player //Inheritance (TYPE OF)
     {
@@ -19,12 +19,12 @@ namespace R.P.S.L.S
         
         }
 
-        //CAN DO
+        //CAN DO (METHOD)
         public override void ChooseGesture() 
         {
-            Console.WriteLine("Rock, Paper, Scissor, Lizzard, SPOCK...CHOOOOSE!!!:");
+            Console.WriteLine("Rock, Paper, Scissor, Lizard, SPOCK...CHOOOOSE!!!:");
             Gesture = Console.ReadLine();
-            //return Gesture;
+            
             
         
         }
