@@ -28,7 +28,7 @@ namespace R.P.S.L.S
             Console.ReadLine();
 
 
-            Console.Write("There's rules to this game, believe it or not. All you have to do is type: Rock, Paper, Scissors, Lizzard OR Spock. Nothing more, nothing less. Get it? Got it? Good! Let's Play!");
+            Console.Write("There's rules to this game, believe it or not. All you have to do is type: Rock, Paper, Scissors, Lizard OR Spock. Nothing more, nothing less. Get it? Got it? Good! Let's Play!");
             Console.ReadLine();
 
 
