@@ -12,7 +12,8 @@ namespace R.P.S.L.S
     {//Member Variables(Has A)
         public Player Player1;
         public Player Player2;
-        
+       
+
         
 
         public Game()
@@ -40,20 +41,22 @@ namespace R.P.S.L.S
             {
                 Player1 = new Human();
                 Player2 = new Computer();
-                Console.WriteLine("");
+                Console.WriteLine("Player 1 VS. Computer");
+                Console.ReadLine();
             }
             
             else if (numberOfPlayers == "2") 
             {
                 Player1 = new Human();
                 Player2 = new Human();
-                Console.WriteLine("");
+                Console.WriteLine("Player 1 VS. Player 2");
+                Console.ReadLine();
             }
             Console.ReadLine();
 
         }
        
-        public string SelectGestures()
+        public void CompareGestures()
         {
             if (Player1.Gesture == "Rock")
             {
@@ -219,9 +222,22 @@ namespace R.P.S.L.S
 
         }
 
-        public void RunGame()
+        public void RunGame() // master method
         {
-          ;
+            string numberOfPlayers = ChooseNumberOfPlayers();
+            SetPlayers(numberOfPlayers);
+
+            Player1.ChooseGesture();
+            Player2.ChooseGesture();
+
+
+
+
+            
+
+
+
+
 
         }
 

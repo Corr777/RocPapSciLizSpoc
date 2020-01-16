@@ -12,7 +12,7 @@ namespace R.P.S.L.S
     {
         //Member Variables
         Random random = new Random();
-
+        public string Gesture;
 
         public Computer()  //Constructor (SPAWN)
         {
@@ -22,14 +22,24 @@ namespace R.P.S.L.S
         }
        
 
-        public override string ChooseGesture()     //CAN DO
+        public override void ChooseGesture()     //CAN DO
         {
-            Gesture =  random.Next(1, 6);
-            Console.WriteLine(gesture);
-            Gesture = Console.ReadLine();
-            return Gesture;
+            Random random = new Random();
+            Console.Write("Computer's Turn");
+            int num = random.Next(6);
+            gestures[0];
+            System.Convert.ToInt32(gestures[1]);
+            System.Convert.ToInt32(gestures[2]);
+            System.Convert.ToInt32(gestures[3]);
+            System.Convert.ToInt32(gestures[4]);
+            //  num++;
+            Console.WriteLine(num);
 
+            Gesture = gestures[num];
 
+            //return Gesture;
+
+            Console.WriteLine(Gesture);
            
         }
 

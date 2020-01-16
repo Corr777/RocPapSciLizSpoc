@@ -11,7 +11,9 @@ namespace R.P.S.L.S
         static void Main(string[] args)
         {
 
-            Random random = new Random();
+
+            Game game = new Game();
+            game.RunGame();
 
 
         }

@@ -20,11 +20,11 @@ namespace R.P.S.L.S
         }
 
         //CAN DO
-        public override string ChooseGesture() 
+        public override void ChooseGesture() 
         {
             Console.WriteLine("Rock, Paper, Scissor, Lizzard, SPOCK...CHOOOOSE!!!:");
             Gesture = Console.ReadLine();
-            return Gesture;
+            //return Gesture;
             
         
         }
